@@ -44,13 +44,7 @@ function makeInt(a) {
    }
   }
 
-//function preserveDecimal(a) {
-//  if (preserveDecimal === '2.222') {
-//  decimalTotal = parseFloat('2.222')
-//  return decimalTotal
-//   }
-//  }
-  
+
 function preserveDecimal(a) {
   if (preserveDecimal === '2.222') {
    decimalTotal = parseFloat('2.222')
