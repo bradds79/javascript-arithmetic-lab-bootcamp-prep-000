@@ -57,13 +57,8 @@ function makeInt(a) {
 //  }
   
   function preserveDecimal(n) {
-  if (n === '2.222') {
-   var decimalTotal = parseFloat(n)
-   return decimalTotal
-  } else if (n === 'sldkjflksjf') {
-  var decimalTotalNaN = parseFloat('sldkjflksjf')
-  return decimalTotalNaN
-   }
+  parseFloat(n)
+  return n
   }
 
 
