@@ -46,7 +46,17 @@ function makeInt(a) {
   }
 
 
-function preserveDecimal(n) {
+//function preserveDecimal(n) {
+//  if (n === '2.222') {
+//   var decimalTotal = parseFloat(n)
+//   return decimalTotal
+//  } else if (n === 'sldkjflksjf') {
+//  var decimalTotalNaN = parseFloat('sldkjflksjf')
+//  return decimalTotalNaN
+//   }
+//  }
+  
+  function preserveDecimal(n) {
   if (n === '2.222') {
    var decimalTotal = parseFloat(n)
    return decimalTotal
@@ -55,6 +65,7 @@ function preserveDecimal(n) {
   return decimalTotalNaN
    }
   }
+
 
 //function sayHiToGrandma(string) {
 //  if (string === string.toLowerCase()) {
