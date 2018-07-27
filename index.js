@@ -57,8 +57,8 @@ function makeInt(a) {
 //  }
   
   function preserveDecimal(n) {
-  parseFloat(n)
-  return n
+  var x = parseFloat(n)
+  return x
   }
 
 
