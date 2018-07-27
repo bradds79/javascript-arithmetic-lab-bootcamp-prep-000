@@ -46,11 +46,11 @@ function makeInt(a) {
   }
 
 
-function preserveDecimal(a) {
-  if (preserveDecimal === '2.222') {
+function preserveDecimal(n) {
+  if (n === '2.222') {
    decimalTotal = parseFloat('2.222')
    return decimalTotal
-  } else if (preserveDecimal === 'sldkjflksjf') {
+  } else if (n === 'sldkjflksjf') {
   decimalTotalNaN = parseFloat('sldkjflksjf')
   return decimalTotalNaN
    }
