@@ -41,7 +41,8 @@ function dec(a) {
 //   }
 //  }
 function makeInt(a) {
-  return parse
+  return parseInt (a)
+}
 
 //function preserveDecimal(n) {
 //  if (n === '2.222') {
