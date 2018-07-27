@@ -48,10 +48,10 @@ function makeInt(a) {
 
 function preserveDecimal(n) {
   if (n === '2.222') {
-   decimalTotal = parseFloat(n)
+   var decimalTotal = parseFloat(n)
    return decimalTotal
   } else if (n === 'sldkjflksjf') {
-  decimalTotalNaN = parseFloat('sldkjflksjf')
+  var decimalTotalNaN = parseFloat('sldkjflksjf')
   return decimalTotalNaN
    }
   }
