@@ -40,7 +40,8 @@ function dec(a) {
 //    return makeIntTotalNaN
 //   }
 //  }
-
+function makeInt(a) {
+  return parse
 
 //function preserveDecimal(n) {
 //  if (n === '2.222') {
