@@ -29,17 +29,17 @@ function dec(a) {
   }
 
 
-function makeInt(a) {
-   if (a === (a.toString())) {
-      return a
-   } else if (makeInt === '0x2328') {
-     var makeIntTotalZero = parseInt('0*2328', 10)
-     return makeIntTotalZero
-   } else if (makeInt === 'sldkjflksjf')  {  
-    var makeIntTotalNaN = parseInt('sldkjflksjf', 10)
-    return makeIntTotalNaN
-   }
-  }
+//function makeInt(a) {
+//   if (a === (a.toString())) {
+//      return a
+//   } else if (makeInt === '0x2328') {
+//     var makeIntTotalZero = parseInt('0*2328', 10)
+//     return makeIntTotalZero
+//   } else if (makeInt === 'sldkjflksjf')  {  
+//    var makeIntTotalNaN = parseInt('sldkjflksjf', 10)
+//    return makeIntTotalNaN
+//   }
+//  }
 
 
 //function preserveDecimal(n) {
