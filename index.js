@@ -1,7 +1,3 @@
-var a = 5
-var b = 5
-var n
-
 function add(a, b) {
    var addTotal = a + b
  return addTotal
